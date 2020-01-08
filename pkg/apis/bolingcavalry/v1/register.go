@@ -10,7 +10,7 @@ import (
 
 var SchemeGroupVersion = schema.GroupVersion{
 	Group:   bolingcavalry.GroupName,
-	Version: "v1"
+	Version: "v1",
 }
 
 var (
