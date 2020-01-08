@@ -8,10 +8,7 @@ import (
 	bolingcavalry "github.com/liuxiaowei574/k8s-customize-controller/pkg/apis/bolingcavalry"
 )
 
-var SchemeGroupVersion = schema.GroupVersion{
-	Group:   bolingcavalry.GroupName,
-	Version: "v1",
-}
+var SchemeGroupVersion = schema.GroupVersion{Group:   bolingcavalry.GroupName, Version: "v1"}
 
 var (
 	SchemeBuilder = runtime.NewSchemeBuilder(addKnownTypes)
